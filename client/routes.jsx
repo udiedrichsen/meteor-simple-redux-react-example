@@ -4,8 +4,8 @@ import About from './components/about.jsx';
 
 const MyRouter = () => (
   <Router history={browserHistory} >
-    <Route path="/" component={Home} />
-    <Route path="/about" component={About} />
+    <Route name='home' path="/" component={Home} />
+    <Route name='about' path="/about" component={About} />
   </Router>
 );
 

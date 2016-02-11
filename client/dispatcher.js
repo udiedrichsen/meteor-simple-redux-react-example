@@ -18,7 +18,7 @@ registerRedux({
   // router reducer is already included, add more as needed
   reducers: {
     app:   require('./reducers/app')
-  },
+  }
 
   // optioally add your own middleware
   /*
