@@ -2,7 +2,7 @@
   "name": "meteor-simple-redux-react-example",
   "version": "0.0.1",
   "description": "Just a simple meteor example for simple-react-redux",
-  "main": "index.js",
+  "repository" : "https://github.com/udiedrichsen/meteor-simple-redux-react-example",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +14,12 @@
     "1.3"
   ],
   "author": "Ulrich Diedrichsen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies" : {
+
+  },
+  "dependencies" : {
+    "simple-react-redux":"1.0.x"
+  }
 }
+
